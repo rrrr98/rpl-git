@@ -31,4 +31,8 @@ public class Calculator {
         
         return a/b;
     }
+
+    public float max(float a, float b) {
+        return (a < b) ? b : a;
+    }
 }
